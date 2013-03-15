@@ -11,25 +11,25 @@
 
 return 
 	array(
-		"base_url" => "http://localhost/I5/hybridauth/hybridauth/", 
+		"base_url" => "http://localhost/hybridauth-2/hybridauth/", 
 
 		"providers" => array ( 
 			// openid providers
 			"OpenID" => array (
-				"enabled" => false
+				"enabled" => true
 			),
 
 			"Yahoo" => array ( 
-				"enabled" => false,
+				"enabled" => true,
 				"keys"    => array ( "id" => "", "secret" => "" ),
 			),
 
 			"AOL"  => array ( 
-				"enabled" => false 
+				"enabled" => true 
 			),
 
 			"Google" => array ( 
-				"enabled" => false,
+				"enabled" => true,
 				"keys"    => array ( "id" => "", "secret" => "" ), 
 			),
 
@@ -45,12 +45,12 @@ return
 
 			// windows live
 			"Live" => array ( 
-				"enabled" => false,
+				"enabled" => true,
 				"keys"    => array ( "id" => "", "secret" => "" ) 
 			),
 
 			"MySpace" => array ( 
-				"enabled" => false,
+				"enabled" => true,
 				"keys"    => array ( "key" => "", "secret" => "" ) 
 			),
 
@@ -60,7 +60,7 @@ return
 			),
 
 			"Foursquare" => array (
-				"enabled" => false,
+				"enabled" => true,
 				"keys"    => array ( "id" => "", "secret" => "" ) 
 			),
 		),

@@ -32,6 +32,9 @@
 <body>
 	<br /><br />
 	<center>
+		<h1>A simple login Widget integration</h1>
+		<br />
+		<br /> 
 		<table width="380" border="0" cellpadding="2" cellspacing="2">
 		  <tr>
 			<td valign="top"><fieldset>
@@ -76,7 +79,8 @@
 			</td>
 		  </tr>
 		</table> 
-		
+		<br /><br /><br />
+		<b>Note:</b> This is just a proof of concept! it works good enough to try out on Firefox or on Chrome.
 	</center> 
 </body>
 </html>
